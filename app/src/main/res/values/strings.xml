@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WishlistApp</string>
+    <string name="email_number">Email/Number</string>
+    <string name="password">Password</string>
+    <string name="forgotpwd"><u>Forgor Password?</u></string>
+    <string name="rememberme">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="or_login">or login:</string>
+    <string name="my_wish_list">MY WISH LIST</string>
+    <string name="search">Search</string>
+</resources>

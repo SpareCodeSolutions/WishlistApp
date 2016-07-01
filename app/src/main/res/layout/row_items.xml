@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BC000000"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_5">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:src="@drawable/whitecircle" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_toRightOf="@+id/image"
+            android:text="Test Data Test Data Test Data"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/itemTitle"
+            android:layout_below="@+id/itemTitle"
+            android:layout_marginTop="@dimen/dp_5"
+            android:text="$3500"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/itemTitle"
+            android:layout_below="@+id/itemPrice"
+            android:layout_marginTop="@dimen/dp_5"
+            android:text="Added on : 12.04.2016"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_16" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/itemTitle"
+            android:padding="@dimen/dp_5"
+            android:src="@drawable/close_icon" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5"
+        android:background="#BC4C4744" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_10"
+        android:background="@android:color/transparent" />
+</LinearLayout>
